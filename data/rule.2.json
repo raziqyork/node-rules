@@ -23,7 +23,7 @@
                         },
                         {
                             "contains": {
-                                "propertyName": "milkpowder_data.eligibleMarkets",
+                                "propertyName": "prod_data.eligibleMarkets",
                                 "value": {
                                     "propertyName": "$contract.ShipToCountry"
                                 }
@@ -31,7 +31,7 @@
                         },
                         {
                             "equals": {
-                                "propertyName": "milkpowder_data.productGroup",
+                                "propertyName": "prod_data.productGroup",
                                 "value": {
                                     "propertyName": "$contract.ProductGroup"
                                 }
@@ -39,7 +39,7 @@
                         }
                     ]
                 },
-                "propertyName": "tradingpartner_GDT_BidderContracts.Details",
+                "propertyName": "sales_data.Details",
                 "token": "$contract"
             }
         }

@@ -1,5 +1,5 @@
 {
-    "tradingpartner_GDT_BidderContracts": {
+    "sales_data": {
         "Details": [
             {
                 "AppliesFrom": "",
@@ -15,7 +15,7 @@
             }
         ]
     },
-    "milkpowder_data": {
+    "prod_data": {
         "productGroup": "",
         "eligibleMarkets": ""
     },
