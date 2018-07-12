@@ -1,0 +1,36 @@
+{
+    "and": [
+        {
+            "greaterThanOrEqualTo": {
+                "propertyName": "SomeTime",
+                "dateTimeValue": "2017-10-04T16:37:02.069-01:30"
+            }
+        },
+        {
+            "equals": {
+                "propertyName": "x.SomeDecimal",
+                "value": 65.8
+            }
+        },
+        {
+            "not": {
+                "equals": {
+                    "propertyName": "x.SomeDecimal",
+                    "value": 65.2
+                }
+            }
+        },
+        {
+            "contains": {
+                "propertyName": "SomeString",
+                "value": "Mef"
+            }
+        },
+        {
+            "greaterThanOrEqualTo": {
+                "propertyName": "SomeTime",
+                "dateTimeValue": "2017-10-04T16:37:02.069-01:30"
+            }
+        }
+    ]
+}

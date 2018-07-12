@@ -1,0 +1,23 @@
+{
+    "tradingpartner_GDT_BidderContracts": {
+        "Details": [
+            {
+                "AppliesFrom": "",
+                "AppliesTo": "",
+                "ShipToCountry": "",
+                "ProductGroup": ""
+            },
+            {
+                "AppliesFrom": "",
+                "AppliesTo": "",
+                "ShipToCountry": "",
+                "ProductGroup": ""
+            }
+        ]
+    },
+    "milkpowder_data": {
+        "productGroup": "",
+        "eligibleMarkets": ""
+    },
+    "UtcNow": ""
+}

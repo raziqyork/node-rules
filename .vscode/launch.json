@@ -1,0 +1,19 @@
+{
+        "version": "0.2.0",
+        "configurations": [
+
+            {
+                "type": "node",
+                "request": "launch",
+                "name": "Launch Program",
+                "program": "${workspaceRoot}/bin/app.js",
+                "args": [
+                    "${workspaceRoot}/data/rule.2.json",
+                    "${workspaceRoot}/data/model.2.json"
+                ],
+                "outFiles": [
+                    "${workspaceRoot}/out/**/*.js"
+                ]
+            }
+        ]
+    }

@@ -1,0 +1,47 @@
+[
+    {
+        "outcome": "Approved",
+        "rule": {
+            "any": {
+                "predicate": {
+                    "and": [
+                        {
+                            "greaterThanOrEqualTo": {
+                                "propertyName": "UtcNow",
+                                "value": {
+                                    "propertyName": "$contract.AppliesFrom"
+                                }
+                            }
+                        },
+                        {
+                            "lessThanOrEqualTo": {
+                                "propertyName": "UtcNow",
+                                "value": {
+                                    "propertyName": "$contract.AppliesTo"
+                                }
+                            }
+                        },
+                        {
+                            "contains": {
+                                "propertyName": "milkpowder_data.eligibleMarkets",
+                                "value": {
+                                    "propertyName": "$contract.ShipToCountry"
+                                }
+                            }
+                        },
+                        {
+                            "equals": {
+                                "propertyName": "milkpowder_data.productGroup",
+                                "value": {
+                                    "propertyName": "$contract.ProductGroup"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "propertyName": "tradingpartner_GDT_BidderContracts.Details",
+                "token": "$contract"
+            }
+        }
+    }
+]

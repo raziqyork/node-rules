@@ -1,0 +1,70 @@
+{
+    "and": [
+        {
+            "equals": {
+                "propertyName": "SomeDecimal",
+                "value": 65.8
+            }
+        },
+        {
+            "contains": {
+                "propertyName": "SomeString",
+                "value": "Mef"
+            }
+        },
+        {
+            "greaterThanOrEqualTo": {
+                "propertyName": "SomeTime",
+                "dateTimeValue": "2017-10-04T16:37:02.069-01:30"
+            }
+        },
+        {
+            "or": [
+                {
+                    "notEquals": {
+                        "propertyName": "SomeNullDate",
+                        "dateTimeValue": "2018-04-12T06:22:41.069-05:00"
+                    }
+                },
+                {
+                    "not": {
+                        "lessThan": {
+                            "propertyName": "SomeIntValue",
+                            "value": {
+                                "propertyName": "SomeDecimalValue"
+                            }
+                        }
+                    }
+                },
+                {
+                    "and": [
+                        {
+                            "greaterThan": {
+                                "propertyName": "SomeComparable",
+                                "value": 456.234
+                            }
+                        },
+                        {
+                            "or": [
+                                {
+                                    "lessThanOrEqualTo": {
+                                        "propertyName": "SomeDecimalValue",
+                                        "value": 77.5
+                                    }
+                                },
+                                {
+                                    "not": {
+                                        "contains": {
+                                            "propertyName": "SomeCollection",
+                                            "value": 123
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

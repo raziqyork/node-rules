@@ -1,0 +1,14 @@
+{
+    "any": {
+        "propertyName": "A.B",
+        "token": "row",
+        "predicate": {
+            "equals": {
+                "propertyName": "row.C",
+                "value": {
+                    "propertyName": "A.C"
+                }
+            }
+        }
+    }
+}
